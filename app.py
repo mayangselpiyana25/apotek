@@ -2,6 +2,18 @@ import streamlit as st
 import pandas as pd
 from datetime import datetime
 import os
+import streamlit as st
+import pandas as pd
+
+@st.cache_data
+def load_data():
+    df = pd.read_csv(DATA_FILE)
+    df.columns = df.columns.str.strip()
+    return df
+
+@st.cache_data
+def load_riwayat():
+    return pd.read_csv(RIWAYAT_FILE)
 
 # File utama dan riwayat pengeluaran
 DATA_FILE = 'apotekpj.xlsx'
