@@ -128,7 +128,7 @@ if menu == "Halaman Utama":
         serta menganalisis kebutuhan stok secara efisien dan real-time.
         </p>
         <p style="font-size:16px; font-style:italic; text-align:right; margin-top:30px;">
-        -- Tim Digital Apotek Risa Farma
+        -- Mayang Selpiyana
         </p>
     </div>
     """, unsafe_allow_html=True)
